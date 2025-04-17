@@ -34,7 +34,7 @@ ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 # Application definition
 
-GOOGLE_MAPS_API_KEY = "AIzaSyDFYGsq1CetjQGou66kfWQyWxxYEe95-zI"  
+GOOGLE_MAPS_API_KEY = "YOUR_GOOGLE_MAPS_API_KEY"  # Replace with your actual API key
 
 INSTALLED_APPS = [
     'django.contrib.admin',

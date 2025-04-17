@@ -1,7 +1,6 @@
 from django.urls import path
-from .views import calculate_trip, get_available_start_finish_locations  # Ensure correct import
+from . import views
 
 urlpatterns = [
-    path("locations/", get_available_start_finish_locations, name="get_available_locations"),
-    path("calculate_trip/", calculate_trip, name="calculate_trip"),  # Correct function name
+    path('calculate_trip/', views.calculate_trip_view, name='calculate_trip'),
 ]
