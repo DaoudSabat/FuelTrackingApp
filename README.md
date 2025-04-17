@@ -4,7 +4,7 @@ A Django-based API that calculates total trip distance, estimates fuel stops bas
 
 ---
 
-## 🔧 Features
+## Features
 
 -  Calculate trip distance between two locations
 -  Suggest fuel stops every X miles
